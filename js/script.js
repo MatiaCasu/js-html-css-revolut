@@ -10,8 +10,8 @@
 $(function(){
 
   var buttonList = $("li.li_list");
-
   buttonList.click(function(){
     $(this).children(".hidden_list").slideToggle();
+
   });
 });
