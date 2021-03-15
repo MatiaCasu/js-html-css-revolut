@@ -5,6 +5,10 @@
   /* border: 1px solid black; */
 }
 
+*:focus{
+  outline: none;
+}
+
 a{
   text-decoration: none;
   color: inherit;
@@ -53,7 +57,7 @@ ul > li{
   top: 100%;
   display: none;
 }
-
+/*
 .li_list:hover .hidden_list{
   display: block;
-}
+} */
